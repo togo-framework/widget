@@ -2,13 +2,13 @@
 
 The widget contract + registry. Concrete widgets ship as widget-* driver plugins that self-register; an app installs only the ones it wants.
 
-- **Source:** https://github.com/fadymondy/widget
+- **Source:** https://github.com/togo-framework/widget
 - **Reference app:** https://fadymondy.com
 
 ## Install
 
 ```bash
-togo install fadymondy/widget
+togo install togo-framework/widget
 ```
 
 The plugin self-registers on blank-import (no manual wiring). See the top-level

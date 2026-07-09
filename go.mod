@@ -1,4 +1,4 @@
-module github.com/fadymondy/widget
+module github.com/togo-framework/widget
 
 go 1.26.4
 
