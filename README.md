@@ -24,6 +24,10 @@ The widget contract + registry. Concrete widgets ship as widget-* driver plugins
 
 
 
+## Frontend
+
+This package's UI lives in [`web/`](web): the widget **registry + `WidgetCard` contract** (`@togo-framework/widget`). Concrete widgets (the `widget-*` drivers) register into it and render inside its card shell. The Go module embeds `web/` via `go:embed` (`WebAssets`).
+
 MIT
 
 <!-- togo-sponsors -->
